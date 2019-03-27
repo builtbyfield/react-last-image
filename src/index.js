@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import PropTypes from "prop-types";
-import "intersection-observer";
 
 import "./styles.css";
 
@@ -68,6 +67,12 @@ function LastImage({
     });
     return { base: base, srcSet: srcSet };
   }
+
+  useEffect(() => {
+    if (window) {
+      const IntersectionObserver = require("intersection-observer");
+    }
+  }, []);
 
   return (
     <div className="last-image-wrapper" style={style} ref={wrapperRef}>
