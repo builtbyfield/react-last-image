@@ -1,0 +1,34 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.last-image-wrapper {
+  /* width: 100%;
+  height: 100%; */
+  position: relative;
+  overflow: hidden;
+}
+
+.last-image {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.last-image-placeholder {
+  opacity: 1;
+  transition: opacity 200ms ease-out;
+}
+
+.last-image-placeholder.fade {
+  opacity: 0;
+  pointer-events: none;
+}
