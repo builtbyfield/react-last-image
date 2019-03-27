@@ -1,12 +1,12 @@
 module.exports = {
-  type: 'react-component',
+  type: "react-component",
   npm: {
     esModules: true,
     umd: {
-      global: 'LastImage',
+      global: "ReactLastImage",
       externals: {
-        react: 'React'
+        react: "React"
       }
     }
   }
-}
+};

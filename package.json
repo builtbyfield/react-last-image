@@ -1,7 +1,7 @@
 {
-  "name": "last-image",
+  "name": "react-last-image",
   "version": "1.0.1",
-  "description": "Last Image React component",
+  "description": "React Last Image",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -32,7 +32,7 @@
     "react-dom": "^16.8.5"
   },
   "author": "Field",
-  "homepage": "https://github.com/fieldmedialab/last-image",
+  "homepage": "https://github.com/fieldmedialab/react-last-image",
   "license": "MIT",
   "repository": "",
   "keywords": [
