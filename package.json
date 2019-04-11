@@ -1,6 +1,6 @@
 {
   "name": "react-last-image",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "React Last Image",
   "main": "lib/index.js",
   "module": "es/index.js",

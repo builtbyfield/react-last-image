@@ -104,6 +104,7 @@ function LastImage({
             "last-image last-image-placeholder" + (isLoaded && " fade")
           }
           style={imgStyle}
+          alt={alt}
           src={placeholderImage.url}
         />
       )}
