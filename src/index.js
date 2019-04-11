@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import PropTypes from "prop-types";
+import ObjectFitImages from "object-fit-images";
 
 import "./styles.css";
 
@@ -71,6 +72,7 @@ function LastImage({
   useEffect(() => {
     if (window) {
       const IntersectionObserver = require("intersection-observer");
+      ObjectFitImages();
     }
   }, []);
 

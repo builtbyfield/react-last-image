@@ -15,6 +15,7 @@
   object-fit: cover;
   -o-object-position: center center;
   object-position: center center;
+  font-family: "object-fit: cover; object-position: center;";
 }
 
 .last-image-placeholder {
@@ -22,6 +23,11 @@
   -webkit-transition: opacity 200ms ease-out;
   -o-transition: opacity 200ms ease-out;
   transition: opacity 200ms ease-out;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center center;
+  object-position: center center;
+  font-family: "object-fit: cover; object-position: center;";
 }
 
 .last-image-placeholder.fade {

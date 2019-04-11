@@ -1,6 +1,6 @@
 {
   "name": "react-last-image",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "description": "React Last Image",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "intersection-observer": "^0.5.1",
+    "object-fit-images": "^3.2.4",
     "react-intersection-observer": "^8.22.5"
   },
   "peerDependencies": {
